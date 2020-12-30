@@ -1,0 +1,140 @@
+body { 
+    background: url(img/background.png);
+   
+}
+#myContainer{  
+    position: absolute;
+    background:url(img/login_background.png);
+    width: 100%;
+    height: 420px;
+}
+.form-background{    
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+  }
+  .no-account{
+    float: left;
+    width: 48%;
+    height: 300px;  
+  }
+  .have-account{
+    float: right;
+    width: 48%;
+    height: 300px;
+  }
+  .no-account-content{
+      margin-left: 10%;
+  } 
+  .have-account-content{
+    margin-left: 10%;
+  }
+  h2, p{
+    min-width: 50%;
+    color: rgba(215, 225, 230, 0.959);
+  }
+  #sign_up{
+    max-width: 50%;
+    margin-left:10%;
+  }
+  #sign_up:hover{
+    background: rgb(16, 160, 185);
+    border-radius: 25px;
+    }
+  #login{
+    max-width: 50%;
+    margin-left:10%;
+  }
+  #login:hover{
+    background: rgb(16, 160, 185);
+    border-radius: 25px;    
+}
+#myAnimation{
+    background:url(img/bddg.png);
+    position: absolute;
+    width: 48%;
+    height: 460px;
+    top: -5.2%;
+    bottom: 50%;
+    left: 50%;
+}
+#myAnimationGoingRight-content {
+    margin: 20px;
+    height: 280px;
+  }
+#myAnimationGoingLeft-content {
+    display: none;
+    margin: 20px;
+    height: 380px;
+  }
+.logo{
+    position: absolute;
+    top: 20px;
+    right: 10%;
+}
+.color{
+    color: red;
+}
+.email_logo{
+    position: absolute;
+    top: 100px;
+    right: 10%;
+}
+.email_input{
+    width: 100%;
+    border-style: none;
+}
+.lock_logo{
+    position: absolute;
+    top: 180px;
+    right: 10%;
+}
+.password_input{
+    width: 100%;
+    border-style: none;
+}
+.login_buton_two{
+    max-width: 50%;
+    float: left;  
+}
+.forgot{
+    max-width: 100%;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: unset;  
+}
+.name_logo{
+    position: absolute;
+    top: 100px;
+    right: 10%;
+}
+.name_input{
+    width: 100%;
+    border-style: none;
+}
+.email_logo2{
+    position: absolute;
+    top: 180px;
+    right: 10%;
+}
+.lock_logo2{
+    position: absolute;
+    top: 280px;
+    right: 10%;
+}
+
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+  }
+  button:hover {
+    color: lightblue;
+  }

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="form-background">
+
+
+        <div id="myContainer">
+            <div class="no-account">
+                <div class="no-account-content">
+                    <h2>Don't have an account?</h2>
+
+                    <p>Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Reiciendis, earum quod!
+                        Fugiat natus eligendi atque
+                        nihil eveniet asperiores consectetur,
+
+
+                    </p>
+                    <div class="sign_up_button">
+                        <a onclick="myMoveLeft()"> <img src="img/sign_up_button.png" alt="Sign Up Button"
+                                id="sign_up"></a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="have-account">
+                <div class="have-account-content">
+                    <h2>Have an account?</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet
+                        consectetur
+                    </p>
+                    <div>
+                        <a onclick="myMoveRight()"> <img src="img/login_button.png" alt="Login Button" id="login"></a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div>
+
+            <div id="myAnimation">
+                <div id="myAnimationGoingRight-content">
+                    <form action="enterUsers.php" method="POST" id="form2">
+                        <h2>
+                            Login
+                        </h2>
+                        <div class="logo">
+                            <img src="img/logo.png" alt="Logo">
+                        </div>
+                        <img src="img/line_under.png" alt="Line under">
+                        <div>
+                            <h4>
+                                Email<span class="color">*</span>
+                            </h4>
+                            <div class="email_logo">
+                                <img src="img/email_logo.png" alt="Email logo">
+                            </div>
+                            <input type="email" name="email" class="email_input" required="required">
+
+                        </div>
+                        <hr>
+                        <div>
+                            <h4>
+                                Password<span class="color">*</span>
+                            </h4>
+                            <div class="lock_logo">
+                                <img src="img/lock.png" alt="Lock logo">
+                            </div>
+                            <input type="password" name="password" class="password_input" required="required">
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="qwe">
+                                <a href=""> </a>
+                                <a href="#" onclick="document.getElementById('form2').submit(); return false;"><img src="img/login_bd.png" alt="Login Button" class="login_buton_two"></a>
+                            </div>
+                            <div class="asd">
+                                <a href="">
+                                    <h6 class="forgot">Forgot?</h6>
+                                </a>
+                            </div>
+
+
+                        </div>
+                    </form>
+
+                </div>
+                <div id="myAnimationGoingLeft-content">
+                    <form action="addUsers.php" method="POST" id="form1">
+                        <h2>
+                            Sign Up
+                        </h2>
+                        <div class="logo">
+                            <img src="img/logo.png" alt="Logo">
+                        </div>
+                        <img src="img/line_under.png" alt="Line under">
+                        <div>
+                            <h4>
+                                Name<span class="color">*</span>
+                            </h4>
+                            <div class="name_logo">
+                                <img src="img/name_logo.png" alt="Name logo">
+                            </div>
+                            <input type="text" name="name" class="name_input" required>
+
+                        </div>
+                        <hr>
+                        <div>
+                            <h4>
+                                Email<span class="color">*</span>
+                            </h4>
+                            <div class="email_logo2">
+                                <img src="img/email_logo.png" alt="Email logo">
+                            </div>
+                            <input type="email" name="email" class="email_input" required>
+
+                        </div>
+                        <hr>
+                        <div>
+                            <h4>
+                                Password<span class="color">*</span>
+                            </h4>
+                            <div class="lock_logo2">
+                                <img src="img/lock.png" alt="Lock logo">
+                            </div>
+                            <input type="password" name="password" class="password_input" required>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="qwe">
+                                <a href="#" onclick="document.getElementById('form1').submit(); return false;"><img src="img/sign_up_bd.png" alt="Login Button" class="login_buton_two"></a>
+                            </div>
+                            
+                    </form>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
